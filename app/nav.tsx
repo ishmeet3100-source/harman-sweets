@@ -1,0 +1,2 @@
+import Link from 'next/link';
+export default function Nav(){return <header><nav className="wrap"><Link className="logo" href="/">✦ Harman Sweets</Link><div className="links"><Link href="/#seasonal">Seasonal</Link><Link href="/#namkeens">Namkeens</Link><Link href="/#sweets">Sweets</Link><Link href="/#restaurant">Restaurant</Link><Link href="/contact">Contact</Link></div><a className="btn primary" href="https://wa.me/919407500095">Order Now</a></nav></header>}

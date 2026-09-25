@@ -1,0 +1,3 @@
+import type { Metadata } from 'next'; import './globals.css'; import Nav from './nav'; import Popup from './popup';
+export const metadata:Metadata={title:'Harman Sweets | Dhuri',description:'Luxury sweets, namkeens and family dining in Dhuri.'};
+export default function Layout({children}:{children:React.ReactNode}){return <html lang="en"><body><Popup/><Nav/>{children}<footer><b>Harman Sweets</b><p>Luxury mithai, namkeens & family dining in Dhuri, Punjab.</p><a href="tel:+919407500095">+91 94075 00095</a><span> · </span><a href="https://wa.me/919407500095">WhatsApp Orders</a><small>© 2025 Harman Sweets</small></footer></body></html>}

@@ -1,0 +1,1 @@
+const config={content:['./app/**/*.{js,ts,jsx,tsx}'],theme:{extend:{colors:{wine:'#68152a',gold:'#d9aa5b',ink:'#251719',cream:'#fff9f1'},fontFamily:{sans:['Arial','sans-serif']},boxShadow:{luxe:'0 20px 60px rgba(55,25,20,.12)'}}},plugins:[]};module.exports=config;
